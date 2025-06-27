@@ -51,7 +51,7 @@
 
 ### ✅ 1. Install UFW
 UFW may not come pre-installed on Kali, so we install it using:
-```bash
+<pre>```bash
 sudo apt update
 sudo apt install ufw -y
 (after the update of kali, and install of ufw, enable the ufw)
@@ -70,7 +70,7 @@ sudo ufw deny out 80
 sudo ufw deny out 443
 
 A screen shot has been attached in kali folder. You will see the rule applied for both ipv4 and ipv6.
-
+</pre>
 ## ✅ Conclusion
 
 ### 🐧 On Kali Linux:
